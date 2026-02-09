@@ -1,0 +1,4 @@
+name: clean_architecture_example_riverpod
+
+packages:
+  - packages/**
