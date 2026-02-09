@@ -1,16 +1,17 @@
-# clean_architecture_example
+# app
 
-A new Flutter project.
+Flutter application entrypoint for the monorepo.
 
-## Getting Started
+**Responsibilities**
+1. App bootstrap and UI shell.
+2. Router configuration.
+3. Composition root (GetIt wiring).
 
-This project is a starting point for a Flutter application.
+**Depends on**
+1. `core`
+2. `feature_auth`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Run**
+```bash
+flutter run
+```
